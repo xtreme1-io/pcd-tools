@@ -11,4 +11,4 @@ RUN pip install -e .
 
 WORKDIR /app/pcd_tools
 EXPOSE 5000
-ENTRYPOINT ["python", "app.py"]
+CMD ["python", "app.py"]
